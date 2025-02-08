@@ -1,0 +1,235 @@
+{
+    "id": "1",
+    "title": "Git nível iniciantes",
+    "description": "Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo (Exemplo: alguns livros digitais são disponibilizados no GitHub e escrito aos poucos publicamente). O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.",
+    "category": "git",
+    "level": 1,
+    "tags": [
+        "Git",
+        "Iniciante",
+        "Versionamento de código"
+    ],
+    "contributors": [
+        {
+            "name": "Neto Batista",
+            "url": "https://github.com/NetoBatista",
+            "imageUrl": "https://avatars.githubusercontent.com/u/23426240?v=4"
+        }
+    ],
+    "references": [
+        {
+            "title": "Git docs",
+            "url": "https://git-scm.com/docs"
+        },
+        {
+            "title": "Imersão git",
+            "url": "https://gitimmersion.com/"
+        },
+        {
+            "title": "",
+            "url": "https://www.youtube.com/watch?v=ts-H3W1uLMM&t=1s&ab_channel=C%C3%B3digoFonteTV"
+        }
+    ],
+    "content": [
+        {
+            "id": "1",
+            "question": "O que é Git?",
+            "answer": 1,
+            "answerDescription": "Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Sistema de controle de versionamento"
+                },
+                {
+                    "id": 2,
+                    "text": "Linguagem de programação"
+                },
+                {
+                    "id": 3,
+                    "text": "Framework"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "question": "Qual o principal objetivo do Git?",
+            "answer": 1,
+            "answerDescription": "O Git permite acompanhar as mudanças em um projeto ao longo do tempo, facilitando a colaboração entre desenvolvedores e permitindo voltar a versões anteriores se necessário.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Controlar versões de arquivos"
+                },
+                {
+                    "id": 2,
+                    "text": "Compilar código-fonte"
+                },
+                {
+                    "id": 3,
+                    "text": "Gerenciar servidores"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "question": "O que é um repositório Git?",
+            "answer": 1,
+            "answerDescription": "Um repositório Git é um local onde são armazenadas todas as informações sobre um projeto, incluindo o histórico de versões.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Um local para armazenar arquivos de um projeto"
+                },
+                {
+                    "id": 2,
+                    "text": "Um tipo de arquivo de configuração"
+                },
+                {
+                    "id": 3,
+                    "text": "Uma ferramenta de linha de comando"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "question": "Qual comando Git é usado para criar um novo repositório?",
+            "answer": 1,
+            "answerDescription": "O comando `git init` inicializa um novo repositório Git em um diretório.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "git init"
+                },
+                {
+                    "id": 2,
+                    "text": "git clone"
+                },
+                {
+                    "id": 3,
+                    "text": "git add"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "question": "O que é um commit no Git?",
+            "answer": 1,
+            "answerDescription": "Um commit é um instantâneo das alterações feitas nos arquivos de um projeto em um determinado momento.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Um salvamento das alterações"
+                },
+                {
+                    "id": 2,
+                    "text": "Uma branch"
+                },
+                {
+                    "id": 3,
+                    "text": "Um merge"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "question": "Qual comando Git é usado para criar uma nova branch?",
+            "answer": 1,
+            "answerDescription": "O comando `git branch nome_da_branch` cria uma nova branch a partir da branch atual.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "git branch"
+                },
+                {
+                    "id": 2,
+                    "text": "git checkout"
+                },
+                {
+                    "id": 3,
+                    "text": "git merge"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "question": "O que é um merge no Git?",
+            "answer": 1,
+            "answerDescription": "Um merge é a ação de combinar duas ou mais branches em uma única branch.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "A junção de duas branches"
+                },
+                {
+                    "id": 2,
+                    "text": "A criação de uma nova branch"
+                },
+                {
+                    "id": 3,
+                    "text": "A exclusão de uma branch"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "question": "Qual a diferença entre `git fetch` e `git pull`?",
+            "answer": 2,
+            "answerDescription": "O `git fetch` baixa as alterações de um repositório remoto para o local, enquanto o `git pull` baixa as alterações e as integra na branch atual.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Não há diferença entre os dois comandos"
+                },
+                {
+                    "id": 2,
+                    "text": "`git pull` baixa e integra as alterações, enquanto `git fetch` só baixa"
+                },
+                {
+                    "id": 3,
+                    "text": "`git fetch` cria uma nova branch, enquanto `git pull` atualiza a branch atual"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "question": "Para que serve o comando `git push`?",
+            "answer": 1,
+            "answerDescription": "O `git push` envia as alterações locais para um repositório remoto.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Enviar alterações para um repositório remoto"
+                },
+                {
+                    "id": 2,
+                    "text": "Criar um novo repositório local"
+                },
+                {
+                    "id": 3,
+                    "text": "Excluir um repositório remoto"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "O que é um conflito de merge e como resolvê-lo?",
+            "answer": 1,
+            "answerDescription": "Um conflito de merge ocorre quando duas branches fazem alterações nos mesmos arquivos. Para resolvê-lo, é necessário editar manualmente os arquivos conflitantes e então fazer um novo commit.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Um conflito de merge ocorre quando duas branches fazem alterações nos mesmos arquivos. Para resolvê-lo, é necessário editar manualmente os arquivos conflitantes e então fazer um novo commit."
+                },
+                {
+                    "id": 2,
+                    "text": "Um conflito de merge é um erro de sintaxe no código."
+                },
+                {
+                    "id": 3,
+                    "text": "Um conflito de merge acontece quando um repositório remoto é excluído."
+                }
+            ]
+        }
+    ]
+}
