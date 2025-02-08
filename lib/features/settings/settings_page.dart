@@ -15,8 +15,17 @@ class SettingsPage extends StatelessWidget {
         children: [
           ListTile(
             onTap: () => Url.openUrl(
+              'https://github.com/NetoBatista/devlearn',
+            ),
+            leading: Icon(Icons.code_outlined),
+            title: Text('Como contribuir'),
+            trailing: Icon(Icons.chevron_right_outlined),
+          ),
+          ListTile(
+            onTap: () => Url.openUrl(
               'https://github.com/NetoBatista/devlearn/blob/main/assets/privacy.md',
             ),
+            leading: Icon(Icons.privacy_tip_outlined),
             title: Text('Privacidade'),
             trailing: Icon(Icons.chevron_right_outlined),
           ),
@@ -24,6 +33,7 @@ class SettingsPage extends StatelessWidget {
             onTap: () => Url.openUrl(
               'https://github.com/NetoBatista/devlearn/blob/main/assets/use_term.md',
             ),
+            leading: Icon(Icons.newspaper_outlined),
             title: Text('Termo de uso'),
             trailing: Icon(Icons.chevron_right_outlined),
           ),
