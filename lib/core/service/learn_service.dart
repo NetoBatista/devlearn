@@ -12,7 +12,7 @@ class LearnService implements ILearnService {
   Future<Result<List<LearnModel>, String>> get() async {
     try {
       var response = await _requestService.get(
-        'https://api.github.com/repos/NetoBatista/qweqwe/contents/content',
+        'https://api.github.com/repos/NetoBatista/devlearn/contents/assets/collections',
       );
       if (response.statusCode != 200) {
         return Failure('Não foi possível buscar o conteúdo');

@@ -14,12 +14,16 @@ class SettingsPage extends StatelessWidget {
       body: DefaultBodyComponent(
         children: [
           ListTile(
-            onTap: () => Url.openUrl(''),
+            onTap: () => Url.openUrl(
+              'https://github.com/NetoBatista/devlearn/blob/main/assets/privacy.md',
+            ),
             title: Text('Privacidade'),
             trailing: Icon(Icons.chevron_right_outlined),
           ),
           ListTile(
-            onTap: () => Url.openUrl(''),
+            onTap: () => Url.openUrl(
+              'https://github.com/NetoBatista/devlearn/blob/main/assets/use_term.md',
+            ),
             title: Text('Termo de uso'),
             trailing: Icon(Icons.chevron_right_outlined),
           ),
